@@ -57,7 +57,6 @@ namespace ImtahanSistemi
                     {
                         Console.WriteLine($"İmtahan: {r.ExamId} | Bal: {r.Score} | Qiymət: {r.GetGrade()}");
 
-                        // RİYAZİ TOPLAMA ƏMƏLİYYATI
                         cem = cem + r.Score;
                     }
 
